@@ -4,8 +4,10 @@
   <header role="banner">{% include header.html %}</header>
   <nav role="navigation">{% include navigation.html %}</nav>
   <div id="main">
-    <div id="content">
-      {{ content | expand_urls: root_url }}
+    <div id="main_content_wrap" class="outer">
+		<section id="main_content" class="inner">
+			{{ content | expand_urls: root_url }}
+		</section>
     </div>
   </div>
   <footer role="contentinfo">{% include footer.html %}</footer>
