@@ -1,4 +1,2 @@
 theme: jekyll-theme-minimal
 
-paginate: 5
-paginate_path: "IdMUnit/blog/page:num"
