@@ -23,9 +23,10 @@ layout: default
   </nav>
 </div>
 <aside class="sidebar">
-  {% if site.blog_index_asides.size %}
-    {% include_array blog_index_asides %}
+    {% if site.blog_index_asides.size %}
+   {% include asides/recent_posts.html %}
+   {% include custom/asides/archive.html %}
   {% else %}
-    {% include_array default_asides %}
+    {% include asides/recent_posts.html %}
   {% endif %}
 </aside>
