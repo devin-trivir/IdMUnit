@@ -375,7 +375,8 @@ body > div > div{
 				aside.sidebar.thirds section.first{
 					margin-left:0;
 					clear:both
-				}}
+				}
+				}
 				@media only screen and (min-width: 768px){
 				body{
 					-webkit-text-size-adjust:auto
@@ -446,7 +447,8 @@ body > div > div{
 				.collapse-sidebar aside.sidebar.thirds section.first{
 					margin-left:0;
 					clear:both
-				}}
+				}
+				}
 				@media only screen and (min-width: 992px){
 				body > header{
 					font-size:1.3em
@@ -465,7 +467,7 @@ body > div > div{
 				.collapse-sidebar aside.sidebar{
 					padding-left:55px;
 					padding-right:55px
-				}}
+				}
 				body > header{
 					background:#fff
 				}
@@ -556,6 +558,7 @@ body > div > div{
 				body > nav ul{
 					display:none
 					}
+				}
 				@media only screen and (min-width: 550px){
 					body > nav{
 						font-size:.9em
@@ -643,7 +646,8 @@ body > div > div{
 					}
 					body > nav fieldset[role=search]{
 						width:99%
-					}}
+					}
+				}
 					@media only screen and (min-width: 992px){
 						body > nav form{
 							width:215px
